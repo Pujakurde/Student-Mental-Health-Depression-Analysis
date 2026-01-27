@@ -104,7 +104,11 @@ The Power BI dashboard provides a comprehensive view of student mental health in
 ## Author
 
 Puja Kurde
+
+
 Final-Year B.Tech Data Science Student
+
+
 Aspiring Data Analyst
 
 GitHub: [https://github.com/Pujakurde](https://github.com/Pujakurde)
