@@ -1,103 +1,111 @@
-# 🎓 Student Depression Analysis using Machine Learning
+# Student Depression Analysis and Interactive Dashboard
 
-## 📘 Overview
-This project focuses on analyzing and predicting depression among students using machine learning. By evaluating various factors such as academic performance, lifestyle, and social behavior, the model aims to identify students who may be at risk of depression, promoting early intervention and mental well-being.
+## Project Overview
 
----
+Student mental health has become a critical concern influenced by academic pressure, lifestyle habits, and personal circumstances.
+This project focuses on analyzing depression trends among students using structured data analysis and presenting insights through an interactive dashboard to support data-driven decision-making.
 
-## 🎯 Objective
-- Predict depression levels in students (e.g., low, moderate, high)
-- Identify key factors influencing student mental health
-- Create visual insights for understanding trends and patterns
-- Promote awareness and data-driven support strategies
+The project follows an end-to-end analytics workflow using SQL, Python, and Power BI.
 
 ---
 
-## 🗂️ Dataset
-The dataset includes anonymized information such as:
-- 📚 Academic performance  
-- 💤 Sleep habits  
-- 👥 Social activities  
-- 🏡 Family background  
-- 🧠 Mental health survey responses  
-- 🏃 Lifestyle choices  
+## Objectives
 
-> Note: Dataset is either self-collected via Google Forms or sourced from open repositories like Kaggle.
+* Analyze patterns and factors associated with student depression
+* Study the impact of academic pressure, sleep duration, and workload
+* Identify high-risk student groups using interactive filtering
+* Build a production-level dashboard for stakeholders and decision makers
 
 ---
 
-## 🧠 Machine Learning Workflow
+## Tools and Technologies
 
-1. **Data Preprocessing**  
-   - Handling missing values  
-   - Label encoding & normalization  
-
-2. **Exploratory Data Analysis (EDA)**  
-   - Correlation matrix  
-   - Distribution plots  
-   - Feature importance  
-
-3. **Model Building**  
-   - Logistic Regression  
-   - Random Forest  
-   - Support Vector Machine  
-   - Naive Bayes  
-
-4. **Model Evaluation**  
-   - Accuracy  
-   - Precision & Recall  
-   - F1 Score  
-   - Confusion Matrix  
+* SQL – Data querying and aggregation
+* Python (Pandas, NumPy, Matplotlib) – Data cleaning and exploratory analysis
+* Power BI – Interactive data visualization and dashboarding
+* Power Query – Data transformation and preparation
+* Git and GitHub – Version control and documentation
 
 ---
 
-## 📊 Tools & Technologies
-- Python 🐍  
-- Pandas, NumPy  
-- Scikit-learn  
-- Matplotlib, Seaborn  
-- Jupyter Notebook  
+## Project Structure
 
----
-
-## 📈 Visualizations
-- Depression distribution by gender, age, sleep, study hours, etc.  
-- Heatmaps to find correlations  
-- Bar charts to visualize classification results
-
-> Plots are included in the notebook to explain patterns and model outputs.
-
----
-
-## ✅ Results
-- Achieved 82.83% accuracy using Random Forest 
-- Identified strong predictors like **sleep hours, exam pressure, and screen time**
-- Provided actionable insights for early intervention
-
----
-
-## 📂 Project Structure
+```text
 Student-Depression-Analysis/
 │
-├── dataset/ # CSV file or data source
-├── notebooks/ # Jupyter Notebooks for EDA & modeling
-├── models/ # Saved model files (optional)
-├── images/ # Visualization outputs
-├── README.md # Project overview
-└── requirements.txt # Python dependencies
+├── data/
+│   └── raw/
+│       └── student_depression_dataset.csv
+│
+├── sql/
+│   └── student_depression_analysis.sql
+│
+├── notebooks/
+│   └── Student Depression Analysis.ipynb
+│
+├── dashboard/
+│   ├── student_depression_dashboard.pbix
+│   └── dashboard_preview.png
+│
+├── README.md
+```
 
-## 💬 Future Work
-- Deploy the model as a web app using Streamlit or Flask  
-- Collect real-time data from institutions  
-- Expand features: include social media behavior & anxiety indicators
+---
 
-## 🤝 Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+## Dashboard Description
 
-## 🙏 Acknowledgements
-- Mental Health Awareness groups  
-- Public datasets and survey participants  
-- Tools and resources from the open-source community
+The Power BI dashboard provides a comprehensive view of student mental health indicators with interactive capabilities.
 
+### Key Components
 
+* KPI metrics including total students, depressed students, depression rate, and average CGPA
+* Interactive slicers for age group, gender, degree, and city
+* Visual analysis of depression by age group and gender
+* Evaluation of academic pressure and sleep duration impact
+* High-risk student table filtered to show only depressed students
+
+---
+
+## Key Insights
+
+* Higher academic pressure is associated with increased depression levels
+* Insufficient sleep duration shows a strong correlation with depression
+* Certain age groups demonstrate higher vulnerability
+* Academic and lifestyle factors significantly influence student mental health
+
+---
+
+## Data Preparation and Modeling
+
+* Cleaned and standardized categorical values using Power Query
+* Created age group categories for better analytical clarity
+* Ensured correct data types for accurate aggregations
+* Implemented reusable DAX measures for dynamic and slicer-driven analysis
+
+---
+
+## Use Cases
+
+* Educational institutions monitoring student well-being
+* Counselors and mental health professionals
+* Academic administrators and policy planners
+
+---
+
+## Future Enhancements
+
+* Drill-through analysis for detailed student profiles
+* Bookmark-based storytelling within the dashboard
+* Integration of predictive modeling for early risk identification
+* Deployment through Power BI Service
+
+---
+
+## Author
+
+Puja Kurde
+Final-Year B.Tech Data Science Student
+Aspiring Data Analyst
+
+GitHub: [https://github.com/Pujakurde](https://github.com/Pujakurde)
 
