@@ -52,54 +52,6 @@ Student-Depression-Analysis/
 
 ---
 
-## Dashboard Description
-
-The Power BI dashboard provides a comprehensive view of student mental health indicators with interactive capabilities.
-
-### Key Components
-
-* KPI metrics including total students, depressed students, depression rate, and average CGPA
-* Interactive slicers for age group, gender, degree, and city
-* Visual analysis of depression by age group and gender
-* Evaluation of academic pressure and sleep duration impact
-* High-risk student table filtered to show only depressed students
-
----
-
-## Key Insights
-
-* Higher academic pressure is associated with increased depression levels
-* Insufficient sleep duration shows a strong correlation with depression
-* Certain age groups demonstrate higher vulnerability
-* Academic and lifestyle factors significantly influence student mental health
-
----
-
-## Data Preparation and Modeling
-
-* Cleaned and standardized categorical values using Power Query
-* Created age group categories for better analytical clarity
-* Ensured correct data types for accurate aggregations
-* Implemented reusable DAX measures for dynamic and slicer-driven analysis
-
----
-
-## Use Cases
-
-* Educational institutions monitoring student well-being
-* Counselors and mental health professionals
-* Academic administrators and policy planners
-
----
-
-## Future Enhancements
-
-* Drill-through analysis for detailed student profiles
-* Bookmark-based storytelling within the dashboard
-* Integration of predictive modeling for early risk identification
-* Deployment through Power BI Service
-
----
 
 ## Author
 
